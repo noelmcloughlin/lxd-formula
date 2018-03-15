@@ -24,8 +24,7 @@ Before we forget it, `LXD`_ and this formula allows you to
 Requirements
 ============
 
-- There are currently only LXD packages for Ubuntu GNU/Linux so for the daemon
-  you need Ubuntu.
+- Ubuntu GNU/Linux or Fedora GNU/Linux.
 - This has been tested with Saltstack `2017.7.4`, we don't know if it
   works with other versions.
 - `PyLXD`_ version 2.2.5 from PIP (enable use_pip and it will get that version!).

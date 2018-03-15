@@ -30,6 +30,32 @@
           'libffi-dev'
         ]
       }
+    },
+    'RedHat': {
+      'lxd': {
+        'packages': "criu is required for live migrations.",
+        'packages': [
+          'lxd',
+          'lxd-tools',
+          'criu'
+        ]
+      },
+
+      'client': {
+        'packages': [
+          'lxd-client'
+        ]
+      },
+
+      'python': {
+        'packages': [
+          'python2-pylxd',
+        ],
+        'pip_packages': [
+          'libssl-dev',
+          'libffi-dev'
+        ]
+      }
     }
   }),
 
